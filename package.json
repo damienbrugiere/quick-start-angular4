@@ -1,7 +1,7 @@
 {
-    "name": "ng2-pokemon-app",
+    "name": "angular4-quick-star",
     "version": "1.0.0",
-    "description": "An awesome Angular app for managing pokemons !",
+    "description": "Angular quick start",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
@@ -14,7 +14,7 @@
         "tsc:w": "tsc -w"
     },
     "keywords": [],
-    "author": "",
+    "author": "dbrugiere",
     "license": "MIT",
     "dependencies": {
         "@angular/common": "~4.3.4",
